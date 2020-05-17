@@ -1,0 +1,149 @@
+*{
+    text-align: center;
+    margin:0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+    
+    form ul li{
+    list-style-type: none;
+    }
+    input[type=submit]{
+        background-color: #2cf2ac;
+        text-align: middle;
+        display: block;
+        border: 0;
+        height: 2em;
+        border-radius: 10%;
+        font-size: 15pt;
+        margin: 0 auto;
+        transition-duration: 0.5s;
+	    transition-timing-function: ease-in-out;
+    }
+    input[type=submit]:hover{
+        background-color: #00a354;
+
+
+    }
+    h1{
+        background-color: #b5f5de;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        width: 100%;
+       
+    }
+    body{
+        background-image: url(tlo.png);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        padding: 0;
+        margin: 0;
+    }
+    fieldset{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b5f5de;
+    
+    }
+
+
+$czerwony: red;
+$zielony: green;
+@mixin zo{
+    color: $czerwony;
+    font-weight: bold;
+}
+@mixin do{
+    color: $zielony;
+    font-weight: bold;
+}
+#wynik1{
+    @include zo;
+}
+#wynik2{
+    @include zo;
+}
+#wynik3{
+    @include zo;
+}
+#wynik4{
+    @include zo;
+}
+#wynik5{
+    @include zo;
+}
+#wynik6{
+    @include zo;
+}
+#wynik7{
+    @include zo;
+}
+#wynik8{
+    @include zo;
+}
+#wynik9{
+    @include zo;
+}
+#wynik10{
+    @include zo;
+}
+#wynik11{
+    @include zo;
+}
+#wynik12{
+    @include zo;
+}
+#wynik1plus{
+    @include do;
+}
+#wynik2plus{
+    @include do;
+}
+#wynik3plus{
+    @include do;
+}
+#wynik4plus{
+    @include do;
+}
+#wynik5plus{
+    @include do;
+}
+#wynik6plus{
+    @include do;
+}
+#wynik7plus{
+    @include do;
+}
+#wynik8plus{
+    @include do;
+}
+#wynik9plus{
+    @include do;
+}
+#wynik10plus{
+    @include do;
+}
+#wynik11plus{
+    @include do;
+}
+#wynik12plus{
+    @include do;
+}
+#rezultat{
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+h4{
+font-size: large;
+}
+.odpzdj{
+    max-width: 300px;
+    max-height: 500px;
+    vertical-align: middle;
+    }
+p{
+font-size:large ;
+font-weight: bold;
+}

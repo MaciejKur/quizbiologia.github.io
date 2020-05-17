@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang=pl>
+    <head>
+        <meta charset="UTF-8">
+        <title> Quiz biologia </title>
+        <meta name="author" content="Maciej Kur">
+        <meta name="keywords" content="Biologia", "quiz">
+        <meta name="description" content="Quiz biologiczny z metabolizmu">
+        <link rel="stylesheet" href="style.css">
+        
+
+        <script type="text/javascript">
+            function oblicz()
+        {var x = 0 ;
+            if (document.getElementById("do1"). checked)
+                {
+                x = 1;
+                document.getElementById("wynik1plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik1").style.display="none";
+                document.getElementById("wynik1plus").style.display="block";
+                }
+       
+                    else 
+                    
+                    {		
+                    x = 0;
+                    document.getElementById("wynik1plus").style.display="none";
+                    document.getElementById("wynik1").style.display="block";
+                    document.getElementById("wynik1"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+            if (document.getElementById("do2").checked)	
+                {
+                x=x+1;
+                document.getElementById("wynik2plus").style.display="block";
+                document.getElementById("wynik2plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik2").style.display="none";
+                } 
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik2plus").style.display="none";
+                    document.getElementById("wynik2").style.display="block";
+                    document.getElementById("wynik2"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }	
+            if (document.getElementById("do3"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik3plus").style.display="block";
+                document.getElementById("wynik3plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik3").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik3plus").style.display="none";
+                    document.getElementById("wynik3").style.display="block";
+                    document.getElementById("wynik3"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+             if (document.getElementById("do4"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik4plus").style.display="block";
+                document.getElementById("wynik4plusimg").style.display="block";
+                document.getElementById("wynik4plus"). innerHTML= "Masz rację, poniższe zdjęcie przedstawia schemat działania szlaków i cykli metabolicznych" ;
+                document.getElementById("wynik4").style.display="none";
+                document.getElementById("wynik4plusimg"). innerHTML= "<img src=CamScanner.png>" ;
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik4plus").style.display="none";
+                    document.getElementById("wynik4plusimg").style.display="none";
+                    document.getElementById("wynik4").style.display="block";
+                    document.getElementById("wynik4"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+            if (document.getElementById("do5"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik5plus").style.display="block";
+                document.getElementById("wynik5plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik5").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik5plus").style.display="none";
+                    document.getElementById("wynik5").style.display="block";
+                    document.getElementById("wynik5"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+
+            if (document.getElementById("do6"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik6plus").style.display="block";
+                document.getElementById("wynik6plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik6").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik6plus").style.display="none";
+                    document.getElementById("wynik6").style.display="block";
+                    document.getElementById("wynik6"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+            if (document.getElementById("do7"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik7plus").style.display="block";
+                document.getElementById("wynik7plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik7").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik7plus").style.display="none";
+                    document.getElementById("wynik7").style.display="block";
+                    document.getElementById("wynik7"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+            if (document.getElementById("do8"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik8plus").style.display="block";
+                document.getElementById("wynik8plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik8").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik8plus").style.display="none";
+                    document.getElementById("wynik8").style.display="block";
+                    document.getElementById("wynik8"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+
+
+            if (document.getElementById("do9"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik9plus").style.display="block";
+                document.getElementById("wynik9plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik9").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik9plus").style.display="none";
+                    document.getElementById("wynik9").style.display="block";
+                    document.getElementById("wynik9"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+            if (document.getElementById("do10"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik10plus").style.display="block";
+                document.getElementById("wynik10plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik10").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik10plus").style.display="none";
+                    document.getElementById("wynik10").style.display="block";
+                    document.getElementById("wynik10"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+
+
+            if (document.getElementById("do11"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik11plus").style.display="block";
+                document.getElementById("wynik11plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik11").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik11plus").style.display="none";
+                    document.getElementById("wynik11").style.display="block";
+                    document.getElementById("wynik11"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+
+
+            if (document.getElementById("do12"). checked )
+                {
+                x=x+1;
+                document.getElementById("wynik12plus").style.display="block";
+                document.getElementById("wynik12plus"). innerHTML= "Masz rację" ;
+                document.getElementById("wynik12").style.display="none";
+                }
+                    else 
+                    {
+                    x=x;
+                    document.getElementById("wynik12plus").style.display="none";
+                    document.getElementById("wynik12").style.display="block";
+                    document.getElementById("wynik12"). innerHTML= "Niestety nie jest to poprawna odpowiedź";
+                    }
+           
+           
+        document.getElementById("rezultat").innerHTML="Twój wynik to " +x+"/12";
+        document.getElementById("rezultat").style.display="block";
+                
+                  
+         document.getElementById("restart").style.display="block";
+         document.getElementById("zatwierdz").style.display="none";
+        }
+
+        function restart()
+        {
+        document.getElementById("restart").style.display="none";
+        document.getElementById("zatwierdz").style.display="block"; 
+        document.getElementById("rezultat").style.display="none";
+        document.getElementById("wynik1").style.display="none"; 
+        document.getElementById("wynik1plus").style.display="none";
+        document.getElementById("wynik2").style.display="none"; 
+        document.getElementById("wynik2plus").style.display="none"; 
+        document.getElementById("wynik3").style.display="none";
+        document.getElementById("wynik3plus").style.display="none"; 
+        document.getElementById("wynik4").style.display="none"; 
+        document.getElementById("wynik4plus").style.display="none"; 
+        document.getElementById("wynik5").style.display="none"; 
+        document.getElementById("wynik5plus").style.display="none"; 
+        document.getElementById("wynik6").style.display="none"; 
+        document.getElementById("wynik6plus").style.display="none"; 
+        document.getElementById("wynik7").style.display="none"; 
+        document.getElementById("wynik7plus").style.display="none"; 
+        document.getElementById("wynik8").style.display="none"; 
+        document.getElementById("wynik8plus").style.display="none"; 
+        document.getElementById("wynik9").style.display="none"; 
+        document.getElementById("wynik9plus").style.display="none"; 
+        document.getElementById("wynik10").style.display="none"; 
+        document.getElementById("wynik10plus").style.display="none"; 
+        document.getElementById("wynik11").style.display="none"; 
+        document.getElementById("wynik11plus").style.display="none"; 
+        document.getElementById("wynik12").style.display="none"; 
+        document.getElementById("wynik12plus").style.display="none"; 
+        document.getElementById('do1').checked = false;
+        document.getElementById('zo1a').checked = false;
+        document.getElementById('zo1b').checked = false;
+        document.getElementById('zo1c').checked = false;
+        document.getElementById('do2').checked = false;
+        document.getElementById('zo2a').checked = false;
+        document.getElementById('zo2b').checked = false;
+        document.getElementById('zo2c').checked = false;
+        document.getElementById('do3').checked = false;
+        document.getElementById('zo3a').checked = false;
+        document.getElementById('zo3b').checked = false;
+        document.getElementById('zo3c').checked = false;
+        document.getElementById('zo4a').checked = false;
+        document.getElementById('do4').checked = false;
+        document.getElementById('zo4b').checked = false;
+        document.getElementById('zo4c').checked = false;
+        document.getElementById('zo5a').checked = false;
+        document.getElementById('do5').checked = false;
+        document.getElementById('zo5b').checked = false;
+        document.getElementById('zo5c').checked = false;
+        document.getElementById('zo6a').checked = false;
+        document.getElementById('do6').checked = false;
+        document.getElementById('zo6b').checked = false;
+        document.getElementById('zo6c').checked = false;
+        document.getElementById('zo7a').checked = false;
+        document.getElementById('do7').checked = false;
+        document.getElementById('zo7b').checked = false;
+        document.getElementById('zo7c').checked = false;
+        document.getElementById('zo8a').checked = false;
+        document.getElementById('do8').checked = false;
+        document.getElementById('zo8b').checked = false;
+        document.getElementById('zo8c').checked = false;
+        document.getElementById('zo9a').checked = false;
+        document.getElementById('do9').checked = false;
+        document.getElementById('zo9b').checked = false;
+        document.getElementById('zo9c').checked = false;
+        document.getElementById('zo10a').checked = false;
+        document.getElementById('do10').checked = false;
+        document.getElementById('zo10b').checked = false;
+        document.getElementById('zo10c').checked = false;
+        document.getElementById('zo11a').checked = false;
+        document.getElementById('do11').checked = false;
+        document.getElementById('zo11b').checked = false;
+        document.getElementById('zo11c').checked = false;
+        document.getElementById('zo12a').checked = false;
+        document.getElementById('do12').checked = false;
+        document.getElementById('zo12b').checked = false;
+        document.getElementById('zo12c').checked = false;
+        document.getElementById('wynik4plusimg').style.display="none";
+
+
+        }
+    </script>
+
+    
+        </head>
+<body>
+<h1>Quiz z Metabolizmu</h1></br>
+</br>
+</br>
+
+<fieldset></br>
+
+    <h2 id="quiz">QUIZ<h2>
+
+   <h4>Poniżej znajduje sie quiz składający się z 12 pytań. Po wykonaniu quizu możesz go wykonać ponownie,
+       <u> pamietaj jednak, aby pierw kliknąć 'wyzeruj'.</u>
+</h4>
+   
+    <p>1. Zaznacz punkt w którym poprawnie opisano metabolim.<p></br>
+    <form name="formularz" onsubmit="oblicz();return false;">
+    
+     <ul>
+    <li><label><input type="radio" name="pyt1" id="do1">Metabolizm to ogół przemian chemicznych i energetycznych, które zachodzą w organizmie.</label></li>
+    <li><label><input type="radio" name="pyt1" id="zo1a">Metabolizm inna nazwa procesów podziału komórek.</label></li>
+    <li><label><input type="radio" name="pyt1" id="zo1b">Metabolizm to nazwa procesu dostarczania tlenu do komórek przez krwinki czerwone.</label></li>
+    <li><label><input type="radio" name="pyt1" id="zo1c">Metabolizm to sposób rozmnażania organizmów jednokomórkowych.</label></li>
+    </ul>
+    <p id="wynik1"></p>
+    <p id="wynik1plus"></p>
+</br>
+    
+    <p>2. Metabolizm można podzielić na rakcje rozkładu i syntezy. Ich nazwy to:<p></br>
+     <ul>
+    <li><label><input type="radio" name="pyt2" id="do2">Katabolizm i anabolizm</label></li>
+    <li><label><input type="radio" name="pyt2" id="zo2a">Metabolizm A i Metabolizm B</label></li>
+    <li><label><input type="radio" name="pyt2" id="zo2b">Cytobolizm i Retobolizm</label></li>
+    <li><label><input type="radio" name="pyt2" id="zo2c">Prometabolizm i Postmetabolizm</label></li>
+    </ul>
+    <p id="wynik2"></p>
+    <p id="wynik2plus"></p>
+</br>
+    
+    <p>3. Zaznacz obrazek, który poprawnie przedstawia ATP.<p></br>
+    
+     <ul>
+    <li><label><input type="radio" name="pyt3" id="zo3a">&nbsp;&nbsp;&nbsp;<img src="ATP1.png" class="odpzdj"></label></li>
+    <li><label><input type="radio" name="pyt3" id="zo3b">&nbsp;&nbsp;&nbsp;<img src="ATP2.png" class="odpzdj"></label></li>
+    <li><label><input type="radio" name="pyt3" id="do3">&nbsp;&nbsp;&nbsp;<img src="ATP3.png" class="odpzdj"></label></li>
+    <li><label><input type="radio" name="pyt3" id="zo3c">&nbsp;&nbsp;&nbsp;<img src="ATP4.png" class="odpzdj"></label></li>
+    </ul>
+    <p id="wynik3"></p>
+    <p id="wynik3plus"></p>
+
+</br>
+    <p>4. Zaznacz odpowiedż w której prawidłowo uzupełniono poniższe zdanie.</br></br>Szlaki metaboliczne przebiegają ... natomiast cykle metaboliczne charakteryzują się tym, że... .<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt4" id="zo4a">...tylko w jednym kierunku;    ...powstają w ich wyniku 2 produkty.</label></li>
+        <li><label><input type="radio"  name="pyt4" id="zo4c">...w dwóch kierunkach;    ...powstają w ich wyniku 2 produkty</label></li>
+       <li><label><input type="radio"  name="pyt4" id="zo4b">...w dwóch kierunkach;    ...jeden z produktów końcowych jest substratem kolejnego cyklu</label></li>
+       <li><label><input type="radio"  name="pyt4" id="do4">...tylko w jednym kierunku;    ...jeden z produktów końcowych jest substratem kolejnego cyklu</label></li>
+       </ul>
+       <p id="wynik4"></p>
+       <p id="wynik4plus"></p>
+       <p id="wynik4plusimg"></p>
+
+    </br>
+       <p>5. Czym są enzymy?<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt5" id="zo5a">Głównie cukrami, które pozwalają wydobyć z reakcji chemicznej jak najwięcej energii, poprzez obniżenie energii aktywacji.</label></li>
+       <li><label><input type="radio"  name="pyt5" id="zo5b">Głównie białkami, które spowalniają przebieg rekacji chemicznych poprzez podwyższenie energii aktywacji.</label></li>
+       <li><label><input type="radio"  name="pyt5" id="do5">Głównie białkami, które przyspieszają przebieg rekacji chemicznych poprzez obniżenie energii aktywacji.</label></li>
+       <li><label><input type="radio"  name="pyt5" id="zo5c">Głównie lipidami, które przyspieszają przebieg rekacji chemicznych poprzez obniżenie energii aktywacji.</label></li>
+       </ul>
+       <p id="wynik5"></p>
+       <p id="wynik5plus"></p>
+
+    </br>
+       <p>6. Zaznacz prawdziwe zdanie opisujące enzymy.<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt6" id="zo6a">Wiążą się tylko z ściśle określonym substratem, uczestniczą w kilku typach reakcji oraz nie zużywają się w czasie reakcji.</label></li>
+       <li><label><input type="radio"  name="pyt6" id="do6">Wiążą się tylko z ściśle określonym substratem, uczestniczą w ściśle określonych reakcjach oraz nie zużywają się w czasie reakcji.</label></li>
+       <li><label><input type="radio"  name="pyt6" id="zo6b">Wiążą się z różnymi substratami, uczestniczą w kilku typach rekacji oraz zużywają się w czasie rekacji.</label></li>
+       <li><label><input type="radio"  name="pyt6" id="zo6c">Wiążą się z ściśle określonym substratem, uczestniczą w ściśle określonych reakcjach oraz zużywają się w czasie reakcji.</label></li>
+       </ul>
+       <p id="wynik6"></p>
+       <p id="wynik6plus"></p>
+    </br>
+       <p>7. Jak nazywa sie reakcja chemiczna na którą wpływ ma działanie enzymu.<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt7" id="zo7a">Boost enzymatyczny</label></li>
+       <li><label><input type="radio"  name="pyt7" id="do7">Kataliza enzymatyczna</label></li>
+       <li><label><input type="radio"  name="pyt7" id="zo7b">Hiperenzymatyzacja</label></li>
+       <li><label><input type="radio"  name="pyt7" id="zo7c">Proenzymatyzacja</label></li>
+       </ul>
+       <p id="wynik7"></p>
+       <p id="wynik7plus"></p>
+
+    </br>
+       <p>8. Z czego składa się enzym?<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt8" id="zo8a">Centrum aktywne, część białkowa, część lipidowa.</label></li>
+       <li><label><input type="radio"  name="pyt8" id="zo8b">Część białkowa, część węglowodanowa, część enzymatyczna.</label></li>
+       <li><label><input type="radio"  name="pyt8" id="zo8c">Część lipidowa, część weglowodanowa, część enzymatyczna.</label></li>
+       <li><label><input type="radio"  name="pyt8" id="do8">Centrum aktywne, część białkowa, część niebiałkowa.</label></li>
+       </ul>
+       <p id="wynik8"></p>
+       <p id="wynik8plus"></p>
+    </br>
+       <p>9. Enzymy mogą być "włączane" i "wyłączane" poprzez substancje, które nazywamy:<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt9" id="zo9a">Aktywatorami i dezaktywatorami</label></li>
+       <li><label><input type="radio"  name="pyt9" id="zo9b">Pobudzaczami i stoperami</label></li>
+       <li><label><input type="radio"  name="pyt9" id="do9">Aktywatorami i inhibitorami</label></li>
+       <li><label><input type="radio"  name="pyt9" id="zo9c">Wzmacniaczami i hamulcami enzymatycznymi</label></li>
+       </ul>
+       <p id="wynik9"></p>
+       <p id="wynik9plus"></p>
+
+    </br>
+       <p>10. Wybierz zdanie poprawnie opisujące ujemne sprzężenie zwrotne.<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt10" id="zo10a">Ujemne sprzężenie zwrotne polega na tym, że ilość produktów jest większa od ilości substratów.</label></li>
+       <li><label><input type="radio"  name="pyt10" id="zo10b">Ujemne sprzężenie zwrotne polega na tym, że ilość substratów jest większa od ilości produktów.</label></li>
+       <li><label><input type="radio"  name="pyt10" id="zo10c">Ujemne sprzężenie zwrotne polega na tym, że pH po ostaniej rekacji jest mniejsze od początkowego.</label></li>
+        <li><label><input type="radio"  name="pyt10" id="do10">Ujemne sprzężenie zwrotne polega na tym, że produkt ostatniej reakcji hamuje działania enzymu katalizującego pierwszy substrat.</label></li>
+       </ul>
+       <p id="wynik10"></p>
+       <p id="wynik10plus"></p>
+
+    </br>
+       <p>11. Który z poniższych czynników <u>nie</u> reguluje działania enzymu?<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt11" id="do11">Masa substratów</label></li>
+       <li><label><input type="radio"  name="pyt11" id="zo11b">Temperatura</label></li>
+       <li><label><input type="radio"  name="pyt11" id="zo11a">pH</label></li>
+       <li><label><input type="radio"  name="pyt11" id="zo11c">Stężenie substratów</label></li>
+       </ul>
+       <p id="wynik11"></p>
+       <p id="wynik11plus"></p>
+    </br>
+       <p>12. Zaznacz fałszywe zdanie<p></br>
+        <ul>
+       <li><label><input type="radio"  name="pyt12" id="zo12a">Podczas procesów katabolicznych jest uwalniana energia.</label></li>
+       <li><label><input type="radio"  name="pyt12" id="do12">Przykładem procesów anabolicznych jest oddychanie tlenowe.</label></li>
+       <li><label><input type="radio"  name="pyt12" id="zo12b">Podczas procesów anabolicznych proste związki są syntezowane w związki złożone.</label></li>
+       <li><label><input type="radio"  name="pyt12" id="zo12c">Podczas procesów katabolicznych związki złożone są rozkładane na związki proste.</label></li>
+       </ul>
+       <p id="wynik12"></p>
+       <p id="wynik12plus"></p>
+       
+    </br>
+    <input id="zatwierdz" type="submit" value="Zatwierdź" style="float:none, displayblock"></input>
+       </form>
+    
+   <input id="restart" type="submit" value="Wyzeruj" style="display: none" onclick="restart()"></input>
+      <p id="rezultat" style="float:none"></p>
+ 
+  
+ </fieldset>
+</br>
+</br>
+</br>
+
+</br>
+</br>
+<h4>Quiz wykonany na zaliczenie działu metabolizm </br>Autor: Maciej Kur</br>Klasa: 1Ep</h4>
+
+</br></br>
+
+
+</body>
+
+</html>
